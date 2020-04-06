@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS ile multiple background image</title>  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<style type="text/css">
+* {
+margin: 0;
+padding: 0;
+}
+body {
+background: url('http://www.clipartbest.com/cliparts/7ca/RzB/7caRzBKAi.png'), url('http://www.turizmo-info.lt/wp-content/uploads/2015/05/bgc-kite.png'), url('http://www.coskunlunapark.com/images/ucak.png'), url('http://img-fotki.yandex.ru/get/5631/183954300.e0/0_a408d_dd457675_L');
+background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+background-size:  100% 100%, 20% 20%,100px 100px, 180px 180px;
+background-attachment: fixed;
+background-position: left top, 1080px 20px,50px 50px, 10px 200px;
+}
+.container {
+border: 0px solid gray;
+margin: 0px auto;
+width: 1024px; 
+}
+.container h1{
+font-family: 'Pacifico', cursive;
+color: #ca0002;
+font-size: 40px;
+text-align: center;
+padding-left: 30px;
+text-shadow: 3px 3px 5px #666;
+}
+.container p {
+font-family: 'Pacifico', cursive;
+color: #333;
+font-size: 30px;
+background: rgba(255,255,255,.2);
+text-shadow: 3px 3px 3px lightblue;
+line-height: 70px;
+text-align: left;
+border-top: 3px solid gold;
+border-right: 3px solid orange;
+border-bottom: 3px solid lime;
+border-left: 3px solid pink;
+border-radius: 100%;
+margin-top: 10px;
+margin-left: 10px;
+padding: 5px 20px 5px 20px;
+float: left;
+}
+.container img {
+-webkit-transform: rotate(150deg); /* Chrome, Safari, Opera */
+-ms-transform: rotate(150deg); /* IE 9 */
+transform: rotate(150deg);
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Değerlerimiz</h1>
+<p>iyiliksever</p>
+<p>şükreden</p>
+<p>bilgili</p>
+<p>aktif</p>
+<p>temiz</p>
+<p>kibar</p>
+<p>barışık</p>
+<p>üretken</p>
+<p>sorgulayıcı</p>
+<p>sevecen</p>
+<p>ahlâklı</p>
+<p>adaletli</p>
+<p>sorumlu</p>
+<p>planlı</p>
+<p>inançlı</p>
+<p>çalışkan</p>
+<p>cesaretli</p>
+<p>sabırlı</p>
+<p>hoşgörülü</p>
+<p>dürüst</p>
+<p>alçakgönüllü</p>
+<p>barışçı</p>
+<p>yardımsever</p>
+<p>araştıran</p>
+<p>çevreci</p>
+<p>yenilikçi</p>
+<p>insancıl</p>
+<img src="http://www.indir.com/logo/ugur-bocegi-canli-duvar-kagidi.png" width="30" height="30" style="position: absolute;bottom: 100px; right: 115px">
+</div>
+</body>
+</html>
